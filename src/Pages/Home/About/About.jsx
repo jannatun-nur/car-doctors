@@ -1,18 +1,7 @@
 import person from "../../../assets/images/about_us/person.jpg";
 import parts from "../../../assets/images/about_us/parts.jpg";
-import { useState } from "react";
-import { useEffect } from "react";
+
 const About = () => {
-
-const [services , setServices] =useState([]);
-
-useEffect( ()=>{
-    fetch('services.json')
-    .then(res => res.json())
-    .then(data => setServices(data))
-},[])
-
-
 
 
 
